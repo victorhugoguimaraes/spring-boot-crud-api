@@ -23,8 +23,7 @@ Este é um projeto de estudo focado na implementação de uma API REST com opera
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_SEU_REPOSITÓRIO]
-cd crud
+git clone https://github.com/victorhugoguimaraes/spring-boot-crud-api.git
 ```
 
 2. Configure o banco de dados PostgreSQL no arquivo `application.properties`
@@ -40,11 +39,11 @@ A API oferece endpoints para operações CRUD básicas. Você pode encontrar uma
 
 ### Endpoints Principais:
 
-- `GET /api/[recurso]` - Lista todos os recursos
-- `GET /api/[recurso]/{id}` - Obtém um recurso específico
-- `POST /api/[recurso]` - Cria um novo recurso
-- `PUT /api/[recurso]/{id}` - Atualiza um recurso existente
-- `DELETE /api/[recurso]/{id}` - Remove um recurso
+- `GET /api/projects` - Lista todos os recursos
+- `GET /api/projects/{id}` - Obtém um recurso específico
+- `POST /api/projects` - Cria um novo recurso
+- `PUT /api/projects/{id}` - Atualiza um recurso existente
+- `DELETE /api/projects/{id}` - Remove um recurso
 
 ## 🔧 Configuração do Banco de Dados
 
@@ -63,7 +62,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## ✨ Autor
 
-Victor [Seu Sobrenome]
+Victor Guimarães
 
 ---
-⌨️ com ❤️ por [Seu Nome] 
+⌨️ com ❤️ por [Victor Guimarães]  
