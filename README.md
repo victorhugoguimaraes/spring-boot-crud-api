@@ -2,7 +2,7 @@
 
 Este é um projeto de estudo focado na implementação de uma API REST com operações CRUD (Create, Read, Update, Delete) utilizando Spring Boot e PostgreSQL.
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Java 23
 - Spring Boot 3.4.3
@@ -12,14 +12,14 @@ Este é um projeto de estudo focado na implementação de uma API REST com opera
 - Maven
 - Postman (para testes de API)
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 - Java 23
 - Maven
 - PostgreSQL
 - Postman (para testes)
 
-## 🚀 Configuração do Projeto
+##  Configuração do Projeto
 
 1. Clone o repositório:
 ```bash
@@ -33,7 +33,7 @@ git clone https://github.com/victorhugoguimaraes/spring-boot-crud-api.git
 mvn spring-boot:run
 ```
 
-## 📚 Documentação da API
+## Documentação da API
 
 A API oferece endpoints para operações CRUD básicas. Você pode encontrar uma coleção do Postman com todos os endpoints na pasta `postman`.
 
@@ -45,24 +45,22 @@ A API oferece endpoints para operações CRUD básicas. Você pode encontrar uma
 - `PUT /api/projects/{id}` - Atualiza um recurso existente
 - `DELETE /api/projects/{id}` - Remove um recurso
 
-## 🔧 Configuração do Banco de Dados
+##  Configuração do Banco de Dados
 
 O projeto utiliza Flyway para gerenciamento de migrações do banco de dados. As migrações podem ser encontradas em `src/main/resources/db/migration`.
 
-## 🧪 Testes
+##  Testes
 
 Para executar os testes:
 ```bash
 mvn test
 ```
 
-## 📝 Licença
+##  Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## ✨ Autor
+##  Autor
 
 Victor Guimarães
 
----
-⌨️ com ❤️ por Victor Guimarães
